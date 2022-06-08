@@ -8,3 +8,5 @@
 4. Entity Framework
 5. Active Directory (AD) 
 6. Windows Management Instrumentation (WMI)
+
+Программа получает список компьютеров из AD, опрашивает по сети WMI, формирует базу данных, позволяет просматривать информацию и выводить отчеты

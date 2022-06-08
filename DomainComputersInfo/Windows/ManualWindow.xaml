@@ -1,0 +1,35 @@
+﻿<Window x:Class="DomainComputersInfo.Windows.ManualWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Список компьютеров" Height="220" Width="380" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid Margin="0,0,20,20">
+        <TextBox x:Name="pcname" HorizontalAlignment="Left" Margin="20,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="25"/>
+        <TextBox x:Name="domain" HorizontalAlignment="Left" Margin="200,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,10,0,0" Text="Имя компьютера" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Height="20" Width="160"/>
+        <TextBlock HorizontalAlignment="Left" Margin="200,10,0,0" Text="Домен" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Width="160" Height="20"/>
+        <Button x:Name="add" ToolTip="Добавить компьютер в список" Click="add_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" 
+                BorderBrush="White" Background="White" Foreground="White" Margin="20,84,0,0">
+            <StackPanel>
+                <Image Source="/Icons/add.png" Height="95" Width="95"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="ok" ToolTip="Внести компьютеры в базу" Click="ok_Click"
+                HorizontalAlignment="Left" Margin="140,84,0,0" VerticalAlignment="Top" Width="100" Height="100" 
+                Background="White" BorderBrush="White" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/ok.png" Height="95" Width="95"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="cancel" ToolTip="Отмена" Click="cancel_Click"
+                HorizontalAlignment="Left" Margin="260,84,0,0" VerticalAlignment="Top" Width="100" Height="100" 
+                Foreground="White" BorderBrush="White" Background="White">
+            <StackPanel>
+                <Image Source="/Icons/cancel2.png" Height="95" Width="95"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\glay\source\repos\WMIClasses\bin\Debug\net5.0\WMIClasses.deps.json
+C:\Users\glay\source\repos\WMIClasses\bin\Debug\net5.0\WMIClasses.dll
+C:\Users\glay\source\repos\WMIClasses\bin\Debug\net5.0\ref\WMIClasses.dll
+C:\Users\glay\source\repos\WMIClasses\bin\Debug\net5.0\WMIClasses.pdb
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.AssemblyInfoInputs.cache
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.AssemblyInfo.cs
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.csproj.CoreCompileInputs.cache
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.dll
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\ref\WMIClasses.dll
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.pdb
+C:\Users\glay\source\repos\WMIClasses\obj\Debug\net5.0\WMIClasses.csprojAssemblyReference.cache

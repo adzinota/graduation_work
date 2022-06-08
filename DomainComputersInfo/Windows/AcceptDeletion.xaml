@@ -1,0 +1,24 @@
+﻿<Window x:Class="DomainComputersInfo.Windows.AcceptDeletion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Подтверждение" Width="400" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="Yes" ToolTip="Удалить всю текущую информацию из базы и создать ее заново" Click="Yes_Click" IsDefault="True" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="200" 
+                BorderBrush="#E78383" Background="#E78383" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/delete.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="No" ToolTip="Отменить действие" IsCancel="True"
+                HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Top" Width="200" Height="200" 
+                Background="#6B80B0" BorderBrush="#6B80B0" Foreground="White" Click="No_Click">
+            <StackPanel>
+                <Image Source="/Icons/cancel.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

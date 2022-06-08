@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Charts\MemoryChartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\MemorySizeChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\MemoryTypeChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\OSChartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\OSNameChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\OSTypeChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\ProcessorChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\ProcessorChartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\SocketChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Charts\VirtualizationChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\AcceptDeletion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\CommonInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Credentials.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DatabaseWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DetailedInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ManualWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\SelectionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\StatisticsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Charts\MemoryChartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\MemorySizeChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\MemoryTypeChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\OSChartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\OSNameChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\OSTypeChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\ProcessorChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\ProcessorChartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\SocketChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\VirtualizationChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\AcceptDeletion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\CommonInfoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Credentials.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DatabaseWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DetailedInfoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ManualWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\SelectionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\StatisticsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

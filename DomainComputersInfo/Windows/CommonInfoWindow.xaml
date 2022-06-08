@@ -1,0 +1,37 @@
+﻿<Window x:Class="DomainComputersInfo.Windows.CommonInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Основная информация о компьютерах" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Width="1280" Height="768">
+    <Grid>
+        <ListView x:Name="MainInfoListView" Height="668" Margin="22,66,20,0" VerticalAlignment="Top" SelectionMode="Single">
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Копировать имя компьютера" x:Name="Copy" Click="Copy_Click"/>
+                    <MenuItem Header="Удалить" x:Name="Delete" Click="Delete_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Подробная информация" x:Name="Details" Click="Details_Click"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Имя компьютера" DisplayMemberBinding="{Binding PCname}"/>
+                    <GridViewColumn Header="Операционная система" DisplayMemberBinding="{Binding OSname}"/>
+                    <GridViewColumn Header="Версия ОС" DisplayMemberBinding="{Binding OSversion}"/>
+                    <GridViewColumn Header="Процессор" DisplayMemberBinding="{Binding ProcName}"/>
+                    <GridViewColumn Header="Сокет" DisplayMemberBinding="{Binding Socket}"/>
+                    <GridViewColumn Header="Виртуализация" DisplayMemberBinding="{Binding VirtEn}"/>
+                    <GridViewColumn Header="Материнская плата" DisplayMemberBinding="{Binding BBname}"/>
+                    <GridViewColumn Header="IP адрес" DisplayMemberBinding="{Binding Ipaddr}"/>
+                    <GridViewColumn Header="MAC адрес" DisplayMemberBinding="{Binding Macaddr}"/>
+                    <GridViewColumn Header="Размер памяти" DisplayMemberBinding="{Binding Memory}"/>
+                    <GridViewColumn Header="Тип памяти" DisplayMemberBinding="{Binding Memtype}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBlock Text="Фильтр по имени компьютера" TextWrapping="Wrap" Margin="20,20,1050,708" FontSize="14" Height="25" Width="205"/>
+        <TextBox x:Name="PCName_Filter" TextChanged="PCName_Filter_TextChanged" TextWrapping="Wrap" Margin="240,20,835,707" FontSize="14" Height="25" Width="205"/>
+    </Grid>
+</Window>

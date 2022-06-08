@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DomainComputersInfo</id>
+    <version>1.0.0</version>
+    <authors>DomainComputersInfo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>app.png</icon>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="WMIClasses" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="LiveCharts.Wpf" version="0.9.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices.AccountManagement" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\glay\source\repos\DomainComputersInfo\bin\Debug\net5.0-windows\DomainComputersInfo.runtimeconfig.json" target="lib\net5.0-windows7.0\DomainComputersInfo.runtimeconfig.json" />
+    <file src="C:\Users\glay\source\repos\DomainComputersInfo\bin\Debug\net5.0-windows\DomainComputersInfo.dll" target="lib\net5.0-windows7.0\DomainComputersInfo.dll" />
+    <file src="C:\Users\glay\Desktop\icons\app.png" target="app.png" />
+  </files>
+</package>

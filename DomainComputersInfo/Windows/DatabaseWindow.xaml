@@ -1,0 +1,24 @@
+﻿<Window x:Class="DomainComputersInfo.Windows.DatabaseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Работа с базой данных" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Width="400">
+    <Grid>
+        <Button x:Name="Create" ToolTip="Создать базу данных" Click="Create_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="200" 
+                BorderBrush="#8FC858" Background="#8FC858" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/create.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Fill" ToolTip="Заполнить базу данных" Click="Fill_Click"
+                HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Top" Width="200" Height="200" 
+                Background="#DF7162" BorderBrush="#DF7162" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/fill.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

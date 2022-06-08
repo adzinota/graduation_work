@@ -1,0 +1,31 @@
+﻿<Window x:Class="DomainComputersInfo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Информация о компьютерах" Width="599" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="Database" ToolTip="Работа с базой данных" Click="Database_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="200" 
+                BorderBrush="#8FC858" Background="#8FC858" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/database.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="CommonInfo" ToolTip="Общая информация о компьютерах" Click="CommonInfo_Click"
+                HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Top" Width="200" Height="200" 
+                Background="#DF7162" BorderBrush="#DF7162" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/spreadsheet.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Statistics" ToolTip="Вывод статистики" Click="Statistics_Click"
+                HorizontalAlignment="Left" Margin="400,0,0,0" VerticalAlignment="Top" Width="200" Height="200" 
+                Foreground="White" BorderBrush="#3D8B82" Background="#3D8B82">
+            <StackPanel>
+                <Image Source="/Icons/chart.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

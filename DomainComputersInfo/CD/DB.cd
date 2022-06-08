@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DomainComputersInfo.BaseBoard">
+    <Position X="12.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DB\BaseBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.ComputersContext">
+    <Position X="3.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAQAEAAABAAAAAAEgYMAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DB\ComputersContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.DiskDrive">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAgAAAAAAAAAAACAAAAAAAkABAAAAAA=</HashCode>
+      <FileName>DB\DiskDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.LogicalDisk">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACBAAAAhAAAAAAAAAQAAACAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DB\LogicalDisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.MainInfo">
+    <Position X="6.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAAAAAAAAAAIAAAgQKEAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>DB\MainInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.NetworkAdapter">
+    <Position X="10.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAACAgAAAAACAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DB\NetworkAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.OperatingSystem">
+    <Position X="8.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAAAAACAAAAACAAABAAAAAA=</HashCode>
+      <FileName>DB\OperatingSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.PhysicalMemory">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIoCAAAAAAAAAAAAAAAAAAADAACAAAIAACAABAAAAAA=</HashCode>
+      <FileName>DB\PhysicalMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.Processor">
+    <Position X="8.5" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAACAAAAAAAAAAAAAUAAACQAQAAAAAABAAAAAI=</HashCode>
+      <FileName>DB\Processor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.TotalMemory">
+    <Position X="5.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACAACAAAAAACAABAAAAAA=</HashCode>
+      <FileName>DB\TotalMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainComputersInfo.UserProfile">
+    <Position X="7" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAAAAACCAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DB\UserProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

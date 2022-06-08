@@ -1,0 +1,24 @@
+﻿<Window x:Class="DomainComputersInfo.Windows.SelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Выбор способа работы с базой" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Width="400">
+    <Grid>
+        <Button x:Name="Automatic" ToolTip="Заполнить базу из домена" Click="Automatic_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="200" 
+                BorderBrush="#9D66AF" Background="#9D66AF" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/ad.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Manual" ToolTip="Заполнить базу по имени компьютеров" Click="Manual_Click"
+                HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Top" Width="200" Height="200" 
+                Background="#DDE581" BorderBrush="#DDE581" Foreground="White">
+            <StackPanel>
+                <Image Source="/Icons/hand.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
